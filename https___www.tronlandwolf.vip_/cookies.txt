@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.tronlandwolf.vip	TRUE	/	FALSE	1999999999	LADI_FORM_SUBMIT	0
+www.tronlandwolf.vip	TRUE	/	FALSE	1999999999	LADI_PAGE_VIEW	1
+www.tronlandwolf.vip	TRUE	/	FALSE	1999999999	LADI_DNS_CHECK	2024-08-21 15:45:34.596589251 +0000 UTC m=+1321241.549743395"
+www.tronlandwolf.vip	TRUE	/	FALSE	1999999999	LADI_CLIENT_ID	c4135c99-b8bf-413e-48de-325996bbeeb2
+

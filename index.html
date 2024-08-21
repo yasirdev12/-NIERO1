@@ -1,0 +1,62 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Loading page with centered logo" />
+	<meta name="keywords" content="loader, loading, spinner, logo" />
+	<title>Loading...</title>
+
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			background: #77b;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+		}
+
+		.loader-container {
+			text-align: center;
+		}
+
+		.logo {
+			width: 100px; /* Adjust the size as needed */
+			height: 100px;
+			margin-bottom: 20px;
+		}
+
+		.loader {
+			border: 8px solid #f3f3f3;
+			border-radius: 50%;
+			border-top: 8px solid #3498db;
+			width: 60px;
+			height: 60px;
+			animation: spin 2s linear infinite;
+			margin: 0 auto;
+		}
+
+		@keyframes spin {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+	</style>
+
+	<script type="text/javascript">
+		// Redirect after a delay (e.g., 3 seconds)
+		setTimeout(function() {
+			window.location.href = "./$NIERO/index.html"; // Replace with your actual redirect URL
+		}, 100); // 300 milliseconds = 3 seconds
+	</script>
+</head>
+
+<body>
+	<div class="loader-container">
+		<img src="./w.ladicdn.com_443/63b3d7bebcd4e8001229d39c/6689c0a8e522309ba71d8106_landwu-x-pfp2x-copy-2-p-800-1tron-20240821031844-vi4y1.png" alt="Logo" class="logo" /> <!-- Replace logo.png with your logo path -->
+		<div class="loader"></div>
+	</div>
+</body>
+
+</html>
